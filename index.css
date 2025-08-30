@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    top:0;
+}
+body{
+    height: 100%;
+    width: 100%;  
+    background-image: url(galaxy4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    margin-top: 1%;
+
+}
+.shop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color: aliceblue;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    flex-wrap: wrap;
+    height: 350px;
+    width: 350px;
+    animation-name: girl;
+    animation-timing-function:ease;
+    animation-duration: 10s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+   
+}
+.shop h2{
+    margin-bottom:30px ;
+    color: aliceblue;
+}
+.shop p{
+    color: aliceblue;
+    margin-top: 3px;
+}
+.shopcard{
+    padding: 5px;
+    margin: 1px;
+}
+.shopcard a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.shopcard input{
+    border-radius: 10px;
+    border: 1px black solid;   
+    padding: 6px;
+    width:200px;
+    outline: none;
+}
+.but{
+    padding: 10px;
+    width:210px;
+    margin-top: 6px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    border: 1px black solid; 
+    background-color: rgb(220, 132, 252);
+}
+.but:hover{
+    background-color: rgb(220, 132, 252);
+    color: rgb(255, 255, 255);
+    animation-name: butt;
+    animation-timing-function:ease;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    
+}
+@keyframes butt{
+        0%{
+        box-shadow: 1px 1px 5px rgb(253, 250, 253), 0 0 25px rgb(202, 169, 233), 0 0 10px rgb(251, 7, 255);
+    
+       }
+       25%{
+        box-shadow: 1px 1px 2px rgb(246, 244, 249), 0 0 25px rgb(222, 55, 255), 0 0 5px rgb(58, 4, 73);
+    
+       }
+    
+    50%{
+        box-shadow: 1px 1px 2px rgb(153, 83, 183), 0 0 25px rgb(204, 201, 203), 0 0 5px rgb(255, 7, 160);
+    
+      
+    }
+    100%{
+        box-shadow: 1px 1px 2px rgb(188, 195, 197), 0 0 25px rgb(247, 128, 255), 0 0 5px rgb(245, 241, 248);
+    
+    }
+}
+@keyframes girl{
+    0%{
+        box-shadow: 1px 1px 5px rgb(255, 255, 255), 0 0 25px rgb(123, 38, 202), 0 0 10px rgb(251, 7, 255);
+    
+       }
+       25%{
+        box-shadow: 1px 1px 2px rgb(218, 200, 200), 0 0 25px rgb(220, 213, 213), 0 0 5px rgb(58, 4, 73);
+    
+       }
+    
+    50%{
+        box-shadow: 1px 1px 2px rgb(153, 83, 183), 0 0 25px rgb(244, 53, 164), 0 0 5px rgb(255, 7, 160);
+    
+      
+    }
+    100%{
+        box-shadow: 1px 1px 2px rgb(188, 195, 197), 0 0 25px rgb(247, 128, 255), 0 0 5px rgb(52, 4, 81);
+    
+    }
+
+}
