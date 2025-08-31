@@ -15,9 +15,8 @@ This is a simple web application that provides a login and registration interfac
 ## Live Demo
 
 You can view the live webpage here:  
-[https://athulyaanith.github.io/WEB/](https://athulyaanith.github.io/WEB/)
-
-
+ https://athulyaanith.github.io/WEB/
+ 
 ## Features
 
 - Login and registration forms
