@@ -6,24 +6,50 @@
     <title>LOGIN</title>
     <link rel="styleSheet" href="index.css">
     <link rel="icon" href="">
+    <script src="script.js"></script>
 </head>
 <body>
-    <div class="shop" id="order">
+    <div class="shop" id="shop">
     <h2>LOGIN</h2>
     <div class="shopcard">
-        <input type="text" required placeholder="Username">
+        <input type="text" id="text" required placeholder="Username">
     </div> 
     <div class="shopcard">
-        <input type="email" required placeholder="Email">
+        <input type="email" id="email" required placeholder="Email">
     </div> 
     <div class="shopcard">
-        <input type="password" required placeholder="Password" >
+        <input type="password" id="password" required placeholder="Password" >
     </div > 
-        <button class="but">LOGIN</button>
+        <button class="but" id="but">LOGIN</button>
+        <p id="con"></p>
     <div class="shopcard">
-        <p>Don't have an account?<a href="#npage"><b>Register</b></a></p>
+        <p>Don't have an account?<button id="register"><b>Register</b></button></p>
     </div>
+
 </div>
 </div>
+<div class="logincard" id="logincard">
+        <h1>LOGIN SUCCESSFULL</h1>
+</div>
+<div id="registerform">
+    <h2>REGISTER HERE</h2>
+    <div class="registercard">
+        <input type="text" id="textt" required placeholder="Username">
+    </div> 
+    <div class="registercard">
+        <input type="email" id="emaill" required placeholder="Email">
+    </div> 
+    <div class="registercard">
+        <input type="password" id="passwordd" required placeholder="Password" >
+    </div > 
+    <div class="registercard">
+       <input type="password"id="confirmpasswordd" required placeholder="Confirm Password" >        
+    </div>
+        <p id="conn"></p>
+        <button class="butt" id="butt">register</button>
+
+</div>
+</div>
+
 </body>
 </html>
