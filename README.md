@@ -1,17 +1,6 @@
 # 🌌 Animated Login Page and Registration Page
 This is a simple web application that provides a login and registration interface using HTML, CSS, and JavaScript. It includes client-side form validation and dynamic form switching without requiring a backend.
 
-## 📸 Preview Screenshots
-
-### Login Form
-
-![Login Form](<img width="1908" height="879" alt="image" src="https://github.com/user-attachments/assets/838b488a-7033-48d9-ba1f-2d9ce0ca300c" />
-)
-
-### Registration Form
-
-![Registration Form](<img width="1919" height="888" alt="image" src="https://github.com/user-attachments/assets/c95f6ce8-651d-41bb-a0c7-663bb484c41e" />
-)
 ## Live Demo
 
 You can view the live webpage here:  
