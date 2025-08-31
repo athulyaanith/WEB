@@ -1,6 +1,5 @@
-# 🌌 Animated Login Page
-This project is a visually appealing **Login Page** built using **HTML** and **CSS**, featuring an animated background, smooth transitions, and a responsive glassmorphism design.
----
+# 🌌 Animated Login Page and Registration Page
+This is a simple web application that provides a login and registration interface using HTML, CSS, and JavaScript. It includes client-side form validation and dynamic form switching without requiring a backend.
 
 ## 📸 Preview
 
@@ -8,34 +7,55 @@ This project is a visually appealing **Login Page** built using **HTML** and **C
 ](#)  
 
 
----
-
-## 📁 Project Structure
-
-project-folder/
-├── index.html
-├── index.css
-├── galaxy4.jpg (background image)
-├── README.md
 
 
----
+## Features
 
-## 🚀 Features
+- Login and registration forms
+- Input validation for empty fields
+- Password confirmation check during registration
+- Dynamic form switching between login and register
+- Simple and responsive design
 
-- Glassmorphism card design
-- Background image with full-page coverage
-- Animated login box and button hover effects
-- Responsive layout
-- Accessible input fields with `required` attributes
+## Technologies Used
 
----
+- HTML
+- CSS
+- JavaScript
 
-## 🧰 Technologies Used
+## File Structure
+WEB/
+│
+├── index.html # Main HTML file
+├── style.css # Stylesheet
+├── script.js # JavaScript logic for validation and interaction
+└── README.md # Project documentation
 
-- HTML5
-- CSS3 (Animations, Flexbox, Backdrop Filter)
+## How It Works
 
----
+- The default view shows the **login form**.
+- Clicking on **"Register"** hides the login form and displays the **registration form**.
+- The registration form includes fields for username, email, password, and confirm password.
+- JavaScript handles validation:
+- Checks for empty fields
+- Ensures that passwords match
+- Displays inline error messages
+## Customization
+
+You can extend this project by:
+
+- Connecting to a backend (Node.js, PHP, etc.)
+- Adding local storage or session-based login
+- Integrating real-time validation or authentication APIs
+- Enhancing the UI with frameworks like Bootstrap or Tailwind
+
+## Author
+
+**Athulya Anith**  
+[GitHub - @athulyaanith](https://github.com/athulyaanith)
+
+## License
+
+This project is open-source and free to use under the [MIT License](https://opensource.org/licenses/MIT).
 
 
